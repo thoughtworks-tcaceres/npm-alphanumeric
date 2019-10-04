@@ -1,7 +1,7 @@
 # AlphaNumeric Random String Generator
 
-Simple generator.
-Input: length (integer)
+Simple generator. <br>
+Input: length (integer) <br>
 Output: random alphanumeric string (null if not an integer as input)
 
 ```

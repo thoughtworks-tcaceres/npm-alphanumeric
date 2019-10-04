@@ -15,6 +15,4 @@ const randomString = (num) => {
   return word;
 };
 
-console.log(randomString(5));
-
 module.exports = randomString;
