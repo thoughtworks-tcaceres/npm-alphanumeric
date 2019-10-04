@@ -3,6 +3,10 @@ const randomString = (num) => {
     return null;
   }
 
+  if (!Number.isInteger(num)) {
+    return null;
+  }
+
   const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   let word = "";
   for (let i = 0; i < num; i++) {
@@ -10,5 +14,7 @@ const randomString = (num) => {
   }
   return word;
 };
+
+console.log(randomString(5));
 
 module.exports = randomString;
