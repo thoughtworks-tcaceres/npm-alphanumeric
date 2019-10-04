@@ -1,12 +1,17 @@
 {
   "name": "alphanumeric-random-string-generator",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "description": "simple alphanumeric string generator",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "random",
+    "generator",
+    "alphanumeric",
+    "string"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
